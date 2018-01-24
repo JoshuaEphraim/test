@@ -1,10 +1,10 @@
 $(document).ready(function(){
     showArticles();
-    $(".edit").on("click", function() {
+    $(document).on('click', '.edit', function(){
         var id=$( this ).attr('name');
         top.location.href = 'http://test.job/edit/'+id;
     });
-    $(".delete").on("click", function() {
+    $(document).on('click', '.delete', function(){
         if(confirm("Are you sure you want to delete this article?")) {
             var id = $(this).attr('name');
             $.ajax({
