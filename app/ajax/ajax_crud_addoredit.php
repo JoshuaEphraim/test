@@ -17,8 +17,7 @@ if($error==='')
             echo $this->db->error;
         }
     }elseif($action=='edit'){
-        $timestamp = date('Y-m-d G:i:s');
-        $this->db->query('UPDATE articles SET title="' . $title . '", text="' . $text . '",updatetime="' .$timestamp.'" WHERE id="' . $id . '"');
+        $this->db->query('UPDATE articles SET title="' . $title . '", text="' . $text . '",updatetime= NOW() WHERE id="' . $id . '"');
         if (!$this->db->error) {
             echo 'Your article edit successfuly.';
         } else {
