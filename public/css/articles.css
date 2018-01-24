@@ -10,6 +10,13 @@ body{
 .article{
     padding:10px;
 }
+.article p{
+    margin-top:5px;
+}
+.article h2{
+    margin-bottom:5px;
+    margin-top:5px;
+}
 .comments{
     float:right;
     margin: 10px;

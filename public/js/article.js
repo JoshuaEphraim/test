@@ -62,6 +62,7 @@ function showComments() {
                 $('.comments').append('<div class="comment" id="' + value['id'] + '">');
                 $('.comments #' + value['id']).append('<h2 class="name">' + value['name']);
                 $('.comments #' + value['id']).append('<p id="comment' + value['id'] + '" class="comment">' + value['text']);
+                $('.comments #' + value['id']).append('<p id="time' + value['id'] + '" class="time">created: ' + value['createtime']);
             });
         }
 

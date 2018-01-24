@@ -31,6 +31,7 @@ function showArticles() {
 
                     $('.articles').append('<div class="article" id="'+value['id']+'">');
                     $('.articles #'+value['id']).append('<h2 class="title">' + value['title']);
+                    $('.articles #' + value['id']).append('<p class="time" >last action:' + value['updatetime']);
                     $('.articles #'+value['id']).append('<p id="desc' + value['id'] + '" class="Description">'+ value['text']+'...');
                     $('.articles #' + value['id']+' p[id="desc' + value['id'] + '"]').append('<a href="http://test.job/article/'+value['id']+'" target="_top">Read more');
                     $('.articles #'+value['id']).append('<button class="edit" name="'+value['id']+'" id="edit'+value['id']+'">Edit');
