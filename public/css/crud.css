@@ -1,0 +1,46 @@
+body{
+    background-image: url("/img/palm.jpg");
+    background-size: cover;
+}
+#popup
+{
+    text-align:center !important;
+    width:400px;
+    height:50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-15px 0 0 -200px;
+    display:none;
+    font-weight:800;
+    position:fixed;
+    border:1px solid #cccccc;
+    background-color: #ffd381;
+    padding-top: 20px;
+}
+.makearticle{
+    float:right;
+    min-height: 20%;
+    margin:3%;
+    padding:20px;
+    width:auto;
+}
+.makearticle  a { display: inline-block; float: right; margin-top: 8px; padding: 0 16px; background-color: #ffd285; font-size: 24px; text-decoration: none; color: #fff; }
+.makearticle { background-color: #c13c5d; text-align: left; color: #fff; }
+.makearticle label { text-align: center; font-size: 24px; margin-top: 20px;}
+.makearticle form { width: 600px; margin: 0 auto;}
+.makearticle input.txt {  margin: 0 0 12px; padding: 8px 12px; box-sizing: border-box; border: none; background-color: #fff; font: 18px 'Open Sans', sans-serif; font-weight: 400; color: #505050; }
+.makearticle input.btn { width: 60%; margin: 0 0 12px; padding: 2px 0; border: none; background-color: #ffd381; font: 30px 'Open Sans', sans-serif; font-weight: 400; text-align: center; color: #fff; cursor: pointer; }
+.makearticle textarea.txt { width: 100%; margin: 0 0 12px; padding: 8px 12px; box-sizing: border-box; border: none; background-color: #fff; font: 18px 'Open Sans', sans-serif; font-weight: 400; color: #505050; resize: none; }
+button { width: 20%; margin: 0 0 12px; padding: 2px 0; border: none; background-color: #ffd381; font: 30px 'Open Sans', sans-serif; font-weight: 400; text-align: center; color: #fff; cursor: pointer; }
+#back{
+    float:right;
+    margin-right:7%;
+}
+h1{
+    font-size: 34px;
+    display:block;
+    width:40%;
+    margin:0;
+    float: right;
+}

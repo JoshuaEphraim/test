@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 90px;
+    display:block;
+    width:50%;
+    margin:0;
+    margin-left:3%;
+    margin-top:3%;
+    float: left;
+}
+iframe{
+    width:90%;
+    height:560px;
+    margin-top:30px;
+    margin-left:3%;
+}
+button { width: 20%; margin: 0 0 12px; padding: 2px 0; border: none; background-color: #ffd381; font: 30px 'Open Sans', sans-serif; font-weight: 400; text-align: center; color: #fff; cursor: pointer; }
+.add{
+    float:right;
+    margin-right:7%;
+    margin-top:6%;
+}

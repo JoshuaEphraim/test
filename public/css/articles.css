@@ -1,0 +1,16 @@
+body{
+    background-color: azure;
+}
+.article:nth-child(2n){
+    background-color: aquamarine;
+}
+.article:nth-child(2n+1){
+    background-color: aqua;
+}
+.article{
+    padding:10px;
+}
+.comments{
+    float:right;
+    margin: 10px;
+}
