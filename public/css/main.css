@@ -1,5 +1,9 @@
+html{
+    height:95%;
+}
 body{
     background-color: antiquewhite;
+    height:100%;
 }
 h1{
     font-size: 90px;
@@ -12,9 +16,10 @@ h1{
 }
 iframe{
     width:90%;
-    height:560px;
+    height:80%;
     margin-top:30px;
     margin-left:3%;
+
 }
 button { width: 20%; margin: 0 0 12px; padding: 2px 0; border: none; background-color: #ffd381; font: 30px 'Open Sans', sans-serif; font-weight: 400; text-align: center; color: #fff; cursor: pointer; }
 .add{
